@@ -20,7 +20,7 @@
 
 @layer base {
   body {
-    @apply antialiased;
+    @apply antialiased bg-black;
   }
 }
 
@@ -28,4 +28,8 @@
   .container {
     @apply max-w-7xl mx-auto;
   }
+}
+
+details summary::-webkit-details-marker {
+  display: none;
 }
